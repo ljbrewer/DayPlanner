@@ -47,9 +47,31 @@ textarea {
   border: 1px ridge #000000;
   border-radius: 15px;
 }
+.Reminder, .Save, .table-header {
+  border-radius: 15px;
+  border-style: ridge;
+  background-color: #b8cce4;
+  color: rgb(19, 0, 0);
+  font-size:15px;
+}
 
+
+.saveBtn {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-style: ridge;
+  background-color: #a6f1d2;
+  color: rgb(19, 0, 0);
+  font-size:20px;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  background-color: rgb(48, 160, 204);
+ 
+}
 .past {
-  background-color: #f79a9a;
+  background-color: #f6c2c2;
   color: rgb(10, 10, 10);
 }
 
@@ -59,7 +81,7 @@ textarea {
 }
 
 .future {
-  background-color: #b7b4e0;
+  background-color: #c4c2ec;
   color: rgb(22, 9, 9);
   
 }

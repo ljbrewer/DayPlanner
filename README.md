@@ -35,4 +35,5 @@ Link to GitHub repository:
 
 Picture of Webpage:
 ![image of DayPlanner Website](https://ljbrewer.github.io/DayPlanner/assets/images/DayPlanner.png)
-```
+
+![DayPlaner Image](/images/DayPlanner.png)

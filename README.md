@@ -34,4 +34,5 @@ WHEN I refresh the page
 ### Link to GitHub repository:https://github.com/ljbrewer/DayPlanner
 
 
-### picture of Webpage: ![image of DayPlanner Website](https://ljbrewer.github.io/DayPlanner/assets/images/DayPlanner.png)
+### picture of Webpage:
+![image of DayPlanner](https://ljbrewer.github.io/DayPlanner/assets/images/DayPlanner.png)

@@ -28,15 +28,10 @@ WHEN I click the save button for that timeblock
 WHEN I refresh the page
     THEN the saved events persist
 
+### link to page:  https://ljbrewer.github.io/DayPlanner/
 
 
+### Link to GitHub repository:https://github.com/ljbrewer/DayPlanner
 
-Link to GitHub repository:
-https://ljbrewer.github.io/DayPlanner/
 
-Picture of Webpage:
-![image of DayPlanner Website](https://ljbrewer.github.io/DayPlanner/assets/images/DayPlanner.png)
-
-https://github.com/ljbrewer/DayPlanner
-
-![image of Portfolio Website](https://ljbrewer.github.io/PasswordGenerator/Assets/03-javascript-homework-demo.png)
+### picture of Webpage: ![image of DayPlanner Website](https://ljbrewer.github.io/DayPlanner/assets/images/DayPlanner.png)

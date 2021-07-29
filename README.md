@@ -32,8 +32,11 @@ WHEN I refresh the page
 
 
 Link to GitHub repository:
+https://ljbrewer.github.io/DayPlanner/
 
 Picture of Webpage:
 ![image of DayPlanner Website](https://ljbrewer.github.io/DayPlanner/assets/images/DayPlanner.png)
 
-![DayPlaner Image](/images/DayPlanner.png)
+https://github.com/ljbrewer/DayPlanner
+
+![image of Portfolio Website](https://ljbrewer.github.io/PasswordGenerator/Assets/03-javascript-homework-demo.png)

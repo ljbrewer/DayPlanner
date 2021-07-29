@@ -3,6 +3,9 @@ var today = moment();
 //Displays current day at the top of the page
 $("#currentDay").text(today.format("dddd, MMM Do, YYYY"));
 
+//looks to see if there is anything stored and if not creates an empty object.
+var allReminders=JSON.parse(localStorage.getItem("workHours"))||{};
+
 //creat the array of the hours
 let hour=document.querySelectorAll("div.hour");
 
@@ -16,7 +19,7 @@ for (let index = 0; index < hour.length; index++) {
     if (element.dataset.hour < moment().hour()) {
 
       element.classList.add("past");
-      //color the siblint the same color
+      //color the sibling the same color
       sibling.classList.add("past");
       
     } else //the hour equals the current hour color it for Present time
@@ -32,43 +35,32 @@ for (let index = 0; index < hour.length; index++) {
              //color the siblint the same color
             sibling.classList.add("future");
 
-    }
-}
+ }   
+    if (allReminders[element.textContent]){
+
+    $(element).siblings(".description").val(allReminders[element.textContent].description)
+    $(element).siblings(".Reminder").val(allReminders[element.textContent].reminder)
+
+    console.log(element.textContent)
+}}
+
+ $(".saveBtn").on('click', function(){
+
+    var currentTime = {
+        description: $(this).siblings(".description").val(),
+        reminder: $(this).siblings(".Reminder").val(),
+        time: $(this).siblings(".hour").text()
+};
+allReminders[currentTime.time]=currentTime;
+
+localStorage.setItem("workHours",JSON.stringify(allReminders));
+
+ 
+});
 
 
 
-// $(".saveBtn").on('click', function(){
-
-//     var currentTime = {
-//         description: $(this).siblings(".description").val,
-//         reminder: $(this).siblings(".description").val,
-//         time: $(this).siblings(".time").text
-//     };
-
-
-
-
-// localStorage.setItem("workHours",currentTime );
-
-//   //  JSON.stringify(currentTime)//
-
-// }
-
-
-// //localStorage.setItem("workHours", JSON.stringify(workHours));
-
-
-// //var lastHours =JSON.parse(localStorage.getItem("workHours"));
-
-
-// // if (lastHours !== null){
-// //     document.hour = lastHours.time;
-// //     document.description = lastHours.description;
-// //     document.reminder = lastHours.reminder;
-
-// //}
-
-// )  
+ 
 
 
 

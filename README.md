@@ -33,6 +33,6 @@ WHEN I refresh the page
 
 Link to GitHub repository:
 
-Picture of page:
-![image of DayPlanner Website](https://ljbrewer.github.io/DayPlanner/Assets/DayPlanner.png)
+Picture of Webpage:
+![image of DayPlanner Website](https://ljbrewer.github.io/DayPlanner/assets/images/DayPlanner.png)
 ```

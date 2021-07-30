@@ -35,5 +35,5 @@ WHEN I refresh the page
 
 
 ### picture of Webpage:
-<img src="assets/images/DayPlanner.png">
+<img src="./assets/images/DayPlanner.png">
 

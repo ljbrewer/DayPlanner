@@ -35,6 +35,5 @@ WHEN I refresh the page
 
 
 ### picture of Webpage:
-![image of DayPlanner](https://ljbrewer.github.com/DayPlanner/assets/images/DayPlanner.png)
+<img src="assets/images/DayPlanner.png">
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
